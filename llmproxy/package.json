@@ -1,0 +1,23 @@
+{
+  "name": "llmproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/sqlite": "^3.6.7",
+    "@y-sweet/sdk": "^0.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "keyv": "^4.5.4",
+    "morgan": "^1.10.0",
+    "usellm": "^0.13.0",
+    "uuid": "^9.0.1"
+  },
+  "type": "module"
+}
