@@ -1,9 +1,10 @@
 import requests
+import os
 
-url = "https://api.llmos.dev/v1/chat/completions"
+url = os.environ['LLM_URL_BASE'] # example "https://api.llmos.dev/v1/chat/completions"
 
 headers = {
-    "Authorization": "Bearer lo-m85V9I5acJeo8bwetNvgGvwgA9bJ21N2r5CyUcXdBwXfmEeu",
+    "Authorization": f"Bearer {os.environ['LLM_API_KEY']}",
     "Content-Type": "application/json"
 }
 
